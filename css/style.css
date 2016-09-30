@@ -40,6 +40,23 @@ a{
 footer{
  background-color: #00004d
 }
+.hero-unit {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pismo_Beach,_California_04.JPG/1280px-Pismo_Beach,_California_04.JPG");
+    background-size:cover;
+    height:1280px;
+    width: 100%;
+  }
+.hero-unit h1{
+    color: black;
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 0;
+}
+.hero-unit h2 {
+    font-size: 25px;
+    color: #FFFFFF; 
+
 .background {
   Height: auto;
  /*FIX ME TO AUTO WHEN DONE*/
@@ -65,7 +82,7 @@ footer{
 }
 .section-underline{
  border-color: silver;
- border-width: 1px;
+ border-width: 5px;
  border-top-style: none;
  border-bottom-style: solid;
  border-right-style: none;

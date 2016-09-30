@@ -10,15 +10,15 @@
     
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-        <link rel="stylesheet" href="css/style.css">
-
+   <link rel="stylesheet" href="css/style.css">
+<script src="scripts/portfolioscript.js"> </script>
     
     
     
     
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <div class="background" id="top">
  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
@@ -66,6 +66,8 @@
  </div>
  <br> <!-- IS THIS A GOOD SOLUTION???? SOMETHING TELLS ME NO...-->
  <br>
+ 
+
  <div id="portfolio" class="container-fluid">
  <div class="col-md-8">
  <div class="row">
@@ -74,16 +76,19 @@
   <div class="col-md-8">
    <h2 class="text-center project-text">John Williams Tribute Page</h2>
    <h4 class="text-center">A brief tribute page to illustrious composer John Williams, of Star Wars, Indiana Jones, and Jurassic Park fame. Created as part of Free Code Camp's initial front-end development projects.</h4></div> <!-- Closes column -->
+  
   <div class="col-md-4">
-   <a href="https://codepen.io/JHenderson219/full/mEkGAw/"><img src="https://berkshireonstage.files.wordpress.com/2012/03/boswillliamsconducts.jpg" class="img-responsive img-thumbnail small-margin" alt="John Williams Conducts!"> </a> </div> <!--closes column -->
+   <a href="https://codepen.io/JHenderson219/full/mEkGAw/" target="_blank"><img src="https://berkshireonstage.files.wordpress.com/2012/03/boswillliamsconducts.jpg" class="img-responsive img-thumbnail small-margin" alt="John Williams Conducts!"> </a> </div> <!--closes column -->
  </div> <!-- closes row -->
- <div class="row">
+
+<div class="row">
   <div class="col-md-8">
    <h2 class="text-center">Random Quote Machine</h2>
    <h4 class="text-center">The next front-end development project from Free Code Camp. When it's done, it will display a random quote and then allow the user to quickly tweet it out. I'm still working on this project, but look forward to it being showcased here soon!</h4></div> <!-- closes column-->
   <div class="col-md-4">
    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png" class="img-responsive img-thumbnail small-margin" alt="A placeholder photo"> </a> </div> <!-- closes column-->
  </div> <!-- closes row -->
+  
   <div class="row">
   <div class="col-md-8">
    <h2 class="text-center">Local Weather</h2>
@@ -91,6 +96,7 @@
   <div class="col-md-4">
    <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png" class="img-responsive img-thumbnail small-margin" alt="A placeholder photo"> </a> </div> <!-- closes column-->
  </div> <!-- closes row -->
+  
   <div class="row">
   <div class="col-md-8">
    <h2 class="text-center">Wikipedia Viewer</h2>
@@ -100,15 +106,18 @@
  </div> <!-- closes row -->
    </div> <!--closes container-fluid -->
  <!-- BEGIN CONTACT SECTION-->
+ 
  <div class= "container-fluid">
  <div id="contact" class="row">
   <h2 class="text-center section-underline">Contact</h2></div> <!--closes row-->
   <div class="row">
-   <div class="col-md-12"><a class="btn btn-default btn-lg btn-block silver-background small-margin" href="mailto:hendersonj219@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i> Send me an Email!</a></div></div> <!--closes row and column-->
+   <div class="col-md-12"><a class="btn btn-default btn-lg btn-block silver-background small-margin" href="mailto:hendersonj219@gmail.com" target="_blank"> <i class="fa fa-envelope" aria-hidden="true"></i> Send me an Email!</a></div></div> <!--closes row and column-->
+ 
  <div class="row">  
- <div class="col-md-12"> <a class="btn btn-default btn-lg btn-block github-smoke small-margin" href="https://github.com/JHenderson219"> <i class="fa fa-github" aria-hidden="true"></i> Find me on Github!</a></div></div> <!--closes row and column-->
+ <div class="col-md-12"> <a class="btn btn-default btn-lg btn-block github-smoke small-margin" href="https://github.com/JHenderson219" target="_blank"> <i class="fa fa-github" aria-hidden="true"></i> Find me on Github!</a></div></div> <!--closes row and column-->
+ 
  <div class="row">   
- <div class="col-md-12"> <a class="btn btn-default btn-lg btn-block linkedin-blue small-margin" href="https://www.linkedin.com/in/jordanhenderson1"> <i class="fa fa-linkedin" aria-hidden="true"></i> I'm also on LinkedIn!</a></div></div><!--closes row and column-->
+ <div class="col-md-12"> <a class="btn btn-default btn-lg btn-block linkedin-blue small-margin" href="https://www.linkedin.com/in/jordanhenderson1" target="_blank"> <i class="fa fa-linkedin" aria-hidden="true"></i> I'm also on LinkedIn!</a></div></div><!--closes row and column-->
  </div> <!-- closes fluid container -->
  <!--
  <form>
@@ -133,9 +142,7 @@
  </div>
  </form> -->
 </div>
-<footer>
- <p class="text-center"> © 2016 Jordan Henderson </p>
-</footer>
+
  
  <!-- closes fluid container -->
  <!-- closes background -->
@@ -146,4 +153,7 @@
     
     
   </body>
+<footer>
+ <p class="text-center"> © 2016 Jordan Henderson </p>
+</footer>
 </html>

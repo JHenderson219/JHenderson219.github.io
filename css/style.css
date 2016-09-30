@@ -56,7 +56,7 @@ footer{
 .hero-unit h2 {
     font-size: 25px;
     color: #FFFFFF; 
-
+}
 .background {
   height: auto;
  /*FIX ME TO AUTO WHEN DONE*/
@@ -82,7 +82,7 @@ footer{
 }
 .section-underline{
  border-color: silver;
- border-width: 5px;
+ border-width: 1px;
  border-top-style: none;
  border-bottom-style: solid;
  border-right-style: none;

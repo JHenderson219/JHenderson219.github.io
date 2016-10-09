@@ -37,17 +37,27 @@ li{
 a{
  color: white;
 }
-footer{
- background-color: #00004d
+footer {
+ background-color: #00004d;
+}
+.transparent-overlay{
+  background:rgba(0,0,0,0.5);
+}
+.well {
+   background-color: rgba(245, 245, 245, 0.4);
+}
+.well-black{
+  background-color: grey;
 }
 .hero-unit {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pismo_Beach,_California_04.JPG/1280px-Pismo_Beach,_California_04.JPG");
     background-size:cover;
-    height:1280px;
+    height:1080px;
     width: 100%;
+
   }
-.hero-unit h1{
-    color: black;
+.hero-unit h1 {
+    color: white;
     font-size: 60px;
     letter-spacing: -1px;
     line-height: 1;

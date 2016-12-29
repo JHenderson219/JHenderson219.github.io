@@ -1,0 +1,38 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.container-fluid{
+	padding: 50px;
+}
+.bg-1{ /*blue*/
+	color: #FFFFFF;
+	background-color: #0582CA;
+	padding-top: 100px;
+}
+.bg-2{
+	color: #ffffff;
+	background-color: #343434;
+}
+.headshot{ /*for profile pic */
+	max-width: 250px;
+	max-height: 250px;
+}
+.portfolio-img{
+	max-width: 175px;
+	max-height: 175px;
+}
+.col-xs-4{
+	padding-top: 10px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}

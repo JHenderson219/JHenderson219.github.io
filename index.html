@@ -18,15 +18,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span> 
       </button>
-      <a class="navbar-brand" href="#top">Jordan Henderson</a>
+      <a class="navbar-brand" href="#top">JORDAN HENDERSON</a>
     </div>
     <div class="collapse navbar-collapse" id="portfolioNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#portfolio">PORTFOLIO</a></li>
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACT</a></li>
-        <li><a href="https://www.linkedin.com/in/jordanhenderson1" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
         <li><a href="https://github.com/jhenderson219" target="_blank"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://codepen.io/jhenderson219" target="_blank"><i class="fa fa-lg fa-codepen" aria-hidden="true"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/jordanhenderson1" target="_blank"><i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </div>
@@ -35,22 +36,54 @@
       <h1> Jordan Henderson </h1>
       <img src="img/0_ProfilePic4.jpg" alt="Jordan's smiling face" class="img-circle headshot" />
       <h1> Web Developer </h1>
-      <h4> HTML | CSS | JavaScript | jQuery | Bootstrap | Git </h4>
+      <h4> HTML | CSS | JavaScript</h4> 
+      <h4> jQuery | Bootstrap | Git </h4>
     </div>
-    <div class="container-fluid bg-2 text-center" id="portfolio">
-      <h1> Portfolio </h1>
-      <h3> Recently, I've been working on... </h3>
-      <div class="col-xs-4">
+    <div class="container-fluid bg-2" id="portfolio">
+      <h1 class="text-center"> Portfolio </h1>
+      <h3 class="text-center"> Recently, I've been working on... </h3>
+      <div class="col-sm-4">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png" alt="test-image" class="img-responsive portfolio-img center-block">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo a elit eget feugiat. Integer eu nulla ac felis pretium. </p>
       </div>
-      <div class="col-xs-4">
+      <div class="col-sm-4">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png" alt="test-image" class="img-responsive portfolio-img center-block">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo a elit eget feugiat. Integer eu nulla ac felis pretium. </p>
       </div>
-      <div class="col-xs-4">
+      <div class="col-sm-4">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/PM5544_with_non-PAL_signals.png" alt="test-image" class="img-responsive portfolio-img center-block">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo a elit eget feugiat. Integer eu nulla ac felis pretium. </p>
+      </div>
+      <h3 class="text-center"> Check out even more of my work <br>
+        <a href="https://github.com/jhenderson219" target="_blank">
+          <button class="btn btn-lg btn-secondary"> 
+            Github 
+              <i class="fa fa-github" aria-hidden="true"></i>
+          </button>
+        </a>
+        <a href="https://codepen.io/jhenderson219" target="_blank">
+          <button class="btn btn-lg btn-secondary">
+            Codepen
+              <i class="fa fa-codepen" aria-hidden="true"></i>
+          </button>
+        </a>
+      </h3>
+    </div>
+    <div class="container-fluid bg-3 text-center">
+      <h1> About </h1>
+      <h4> Bacon ipsum dolor amet ham sausage cow jowl kielbasa pork belly tail. Sausage burgdoggen flank, shoulder meatball leberkas ribeye t-bone. Tri-tip pancetta salami pork loin meatloaf short loin meatball tenderloin. Ground round filet mignon pastrami, beef andouille leberkas pork loin. Meatball doner spare ribs kielbasa fatback.</h4>
+      <h4> Strip steak venison chicken meatloaf ham. Shoulder shankle ham hock pork alcatra turkey boudin biltong pastrami sirloin. Frankfurter doner burgdoggen, alcatra picanha salami ball tip pork chop pork beef ground round meatball. Pastrami strip steak pig picanha ham hock venison, tenderloin frankfurter alcatra spare ribs doner burgdoggen flank bacon beef ribs.</h4>
+      <h3> Connect with me! </h3>
+      <a href="https://linkedin.com/in/jordanhenderson1" target="_blank"><button class="btn btn-lg btn-secondary"> LinkedIn <i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></button></a>
+    </div>
+    <div class="container-fluid bg-1">
+      <h1 class="text-center"> Contact </h1>
+      <h3 class="text-center"> Want to get a hold of me? Just fill out the contact form below, and I'll get back to you as soon as I can. </h3>
+      <div class="form-group center-block">
+        <h4 class="text-center">Your Email Address</h4>
+        <input type="email" class="form-control center-block" id="senderEmail">
+        <h4 class="text-center">Subject</h4>
+        <input type="text" class="form-control center-block" id="msgSubject">
+        <h4 class="text-center"> Your Message </h4>
+        <textarea class="form-control center-block" rows="7" id="msg"> </textarea>
+        <button class="btn btn-secondary btn-lg center-block">Submit</button>
       </div>
     </div>
   <footer>

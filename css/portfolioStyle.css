@@ -1,8 +1,9 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 .container-fluid{
-	padding: 50px;
+	padding: 35px;
 }
 .bg-1{ /*blue*/
 	color: #FFFFFF;
@@ -13,6 +14,10 @@ body{
 	color: #ffffff;
 	background-color: #343434;
 }
+.bg-3{
+	color: #FFFFFF;
+	background-color: #BB6B00;
+}
 .headshot{ /*for profile pic */
 	max-width: 250px;
 	max-height: 250px;
@@ -20,6 +25,8 @@ body{
 .portfolio-img{
 	max-width: 175px;
 	max-height: 175px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .col-xs-4{
 	padding-top: 10px;
@@ -34,5 +41,21 @@ body{
 }
 
 .navbar-nav li a:hover {
-    color: #1abc9c !important;
+    color: #343434 !important;
+}
+.form-control{
+	width: 50%;
+	max-width: 300px;
+}
+.form-group{
+	padding-top: 10px;
+}
+label {
+	vertical-align: middle;
+}
+
+.btn-secondary{
+	background-color: #FFFFFF;
+	color: black;
+	margin-top: 10px
 }

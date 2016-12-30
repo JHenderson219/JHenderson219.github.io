@@ -1,0 +1,49 @@
+body{
+	background-color: #050505;
+	background-image: url("https://www.transparenttextures.com/patterns/corrugation.png");
+	color: white;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+h5{
+	color:black;
+}
+.btn{
+	color: black;
+}
+.btn:hover, target, active, focus{
+	background-color: #4a4d51;
+	color: white;
+}
+.boxes-left{
+	background-color: white;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+}
+.boxes-center{
+	background-color: white;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	right: 35%;
+}
+.boxes-right{
+	background-color: white;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	right: 4%;
+}
+.boxes-left{
+	background-color: white;
+}
+
+.white-background{
+	background-color: white;
+	border:15px;
+	border-color: black;
+}
+.hidden{
+	visibility: hidden;
+}

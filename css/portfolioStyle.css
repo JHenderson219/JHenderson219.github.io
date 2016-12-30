@@ -30,10 +30,9 @@ body{
 	max-height: 250px;
 }
 .portfolio-img{
-	max-width: 200px;
-	max-height: 200px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	max-height: 600px;
 	height: 100%;
 	width: 100%;
 }

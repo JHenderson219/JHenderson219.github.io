@@ -1,0 +1,71 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+.container-fluid{
+	padding: 35px;
+	padding-top: 55px;
+}
+.first-div{
+	padding-top: 100px;
+}
+.bg-1{ /*blue*/
+	color: #FFFFFF;
+	background-color: #0582CA;
+}
+.bg-2{
+	color: #ffffff;
+	background-color: #343434;
+}
+.bg-3{
+	color: #FFFFFF;
+	background-color: #BB6B00;
+}
+.bg-4{
+	color: #FFFFFF;
+	background-color: #690500;
+}
+.headshot{ /*for profile pic */
+	max-width: 250px;
+	max-height: 250px;
+}
+.portfolio-img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	max-height: 600px;
+	height: 100%;
+	width: 100%;
+}
+.col-xs-4{
+	padding-top: 10px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: black;
+    background-color: white;
+}
+
+.navbar-nav li a:hover {
+    color: #343434 !important;
+}
+.form-control{
+	width: 50%;
+	max-width: 300px;
+}
+.form-group{
+	padding-top: 10px;
+}
+label {
+	vertical-align: middle;
+}
+
+.btn-secondary{
+	background-color: #FFFFFF;
+	color: black;
+	margin-top: 10px
+}

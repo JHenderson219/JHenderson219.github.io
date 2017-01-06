@@ -4,7 +4,12 @@ document.addEventListener("DOMContentLoaded", function(){
 	var emailBtn = document.getElementById('emailBtn');
 	var modalClose = document.getElementsByClassName("close")[0];
 	var navbar = document.getElementById("navbar");
+	var copyEmail= document.getElementById("copyEmail");
 
+
+	copyEmail.onclick = function(){
+		window.prompt("Copy to clipboard: Ctrl+C on Windows, Cmd+C on Mac", "Hendersonj219@gmail.com");
+	}
 	emailBtn.onclick = function (){
 		emailModal.style.display = "block";
 		navbar.style.display="none";

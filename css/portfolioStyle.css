@@ -48,6 +48,7 @@ body{
     font-size: 12px;
     color: black;
     background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -92,7 +93,7 @@ label {
 
 /* The Close Button */
 .close {
-    color: ;
+    color: black ;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -114,6 +115,7 @@ label {
     color: black;
     margin: auto;
     padding: 0;
+    font-size: 12px;
     border: 1px solid #888;
     width: 80%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);

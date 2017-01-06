@@ -1,9 +1,22 @@
 document.addEventListener("DOMContentLoaded", function(){
-	var emailVisible=false;
-	$("#emailButton").on("click", function(){
-		if (!emailVisible){
-		$("#emailButton").empty().append("Make it disappear! <i class='fa fa-envelope' aria-hidden='true'></i>")
-		$("#emailSpot").empty().append("<h3 class='text-center'> Reach me at Hendersonj219@gmail.com </h3>")
+	//Thanks to W3Schools for the code for the modal. http://www.w3schools.com/howto/howto_css_modals.asp
+	var emailModal = document.getElementById('emailModal');
+	var emailBtn = document.getElementById('emailBtn');
+	var modalClose = document.getElementsByClassName("close")[0];
+	var navbar = document.getElementById("navbar");
+
+	emailBtn.onclick = function (){
+		emailModal.style.display = "block";
+		navbar.style.display="none";
+	}
+	modalClose.onclick = function(){
+		emailModal.style.display="none";
+		navbar.style.display = "block";
+	}
+	window.onclick = function(event) {
+		if(event.target==emailModal){
+			emailModal.style.display = "none";
+			navbar.style.display = "block";
 		}
-	});
+	}
 });

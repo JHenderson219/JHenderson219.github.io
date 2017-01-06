@@ -11,7 +11,7 @@
   </head>
 
   <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-default navbar-fixed-top" id="navbar">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#portfolioNavbar">
@@ -75,16 +75,22 @@
       <h1><strong> About</strong> </h1>
       <h4> Hi! I'm Jordan Henderson. I'm a self-taught web developer, a sci-fi fan, and wearer of sport coats and suit jackets. I love solving problems with technology. </h4> <br>
       <h4> When my nose isn't buried in a computer screen, you can find me behind the nearest keyboard, playing anything from Bach to Billy Joel.</h4> <br>
-      <h4> Fixing problems is my passion. So, if I can help you with one of yours, please get a hold of me. Connect with me on LinkedIn, or send me an email with the form below. I look forward to hearing from you!</h4><br>
+      <h4> Fixing problems is my passion. So, if I can help you with one of yours, please get a hold of me. Connect with me on LinkedIn, or send me an email. I look forward to hearing from you!</h4><br>
       <h3> <em> Connect with me!</em> </h3>
       <a href="https://linkedin.com/in/jordanhenderson1" target="_blank"><button class="btn btn-lg btn-secondary"> LinkedIn  <i class="fa fa-lg fa-linkedin" aria-hidden="true"></i></button></a>
     </div>
 
+  <div id="emailModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3 class="text-center"> Reach me at Hendersonj219@gmail.com</h3>
+    </div>
+  </div>
 
    <div class="container-fluid bg-1" id="contact">
       <h1 class="text-center"><strong> Contact </strong></h1>
       <h3 class="text-center"> Want to get a hold of me? </h3>
-        <button class="btn btn-lg btn-secondary center-block" id="emailButton"> Get my email here! <i class="fa fa-envelope" aria-hidden="true"></i></button>
+        <button class="btn btn-lg btn-secondary center-block" id="emailBtn"> Get my email here! <i class="fa fa-envelope" aria-hidden="true"></i></button>
       <div id="emailSpot"></div>
     </div>
 

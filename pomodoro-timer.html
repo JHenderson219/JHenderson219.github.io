@@ -1,0 +1,75 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+ 	<title>Pomodoro Timer by Jordan Henderson</title>
+ 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="Pomodoro-Timer/css/pomodoroStyle.css">
+
+</head>
+<body>
+	<div class = "container-fluid">
+		<div class = "row">
+			<div class = "col-xs-12"> 
+				<h1 class = "text-center"> Pomodoro Timer </h1>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-xs-12"> 
+				<h4 class="text-center">A <em><a href="https://www.freecodecamp.com/" target="_blank">Free Code Camp</a> <i class="fa fa-free-code-camp" aria-hidden="true"></i></em> project by Jordan Henderson</h4>	
+			</div>
+		</div>
+		<div class ="row">
+			<div class="col-xs-12">
+				<h3 class="text-center">Session Length (Minutes)</h3> 
+			</div>
+		</div>
+		<div class = "row">
+			<div class="col-xs-4"> 
+				<button class="btn btn-lg btn-block btn-secondary" id="sessionMinus">-</button>
+			</div>
+			<div class="col-xs-4 white-background">
+					<h3 class="text-center" id="sessionScreen"> 25 </h3>
+			</div>
+			<div class="col-xs-4">
+				<button class = "btn btn-lg btn-block btn-secondary" id="sessionPlus">+</button>
+			</div>
+		</div>
+		<div class ="row">
+			<div class="col-xs-12">
+				<h3 class="text-center">Break Length (Minutes)</h3> 
+			</div>
+		</div>
+		<div class = "row">
+			<div class="col-xs-4"> 
+				<button class="btn btn-lg btn-block btn-secondary" id="breakMinus">-</button>
+			</div>
+			<div class="col-xs-4 white-background">
+					<h3 class="text-center" id ="breakScreen"> 5 </h3>
+			</div>
+			<div class="col-xs-4">
+				<button class = "btn btn-lg btn-block btn-secondary" id="breakPlus">+</button>
+			</div>
+		</div>
+		<br>
+		<div class = "row">
+			<div class ="col-xs-6">
+			<button class = "btn btn-lg btn-secondary btn-block" id="startButton">Start/Stop</button>
+			</div>
+			<div class="col-xs-6">
+				<button class="btn btn-block btn-secondary btn-lg" id="resetButton">Reset</button>
+			</div>
+		</div>
+	</div>
+<footer>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="Pomodoro-Timer/scripts/pomodoroScript.js"></script>
+</footer>
+</body>
+</html>

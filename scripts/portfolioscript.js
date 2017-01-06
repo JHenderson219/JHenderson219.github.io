@@ -1,29 +1,22 @@
 document.addEventListener("DOMContentLoaded", function(){
-//Thanks to w3Schools for the functions related to the modal.
-//http://www.w3schools.com/howto/howto_css_modals.asp
-// Get the modal
-var modal = document.getElementById('myModal');
+	//Thanks to W3Schools for the code for the modal. http://www.w3schools.com/howto/howto_css_modals.asp
+	var emailModal = document.getElementById('emailModal');
+	var emailBtn = document.getElementById('emailBtn');
+	var modalClose = document.getElementsByClassName("close")[0];
+	var navbar = document.getElementById("navbar");
 
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on the button, open the modal 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
+	emailBtn.onclick = function (){
+		emailModal.style.display = "block";
+		navbar.style.display="none";
+	}
+	modalClose.onclick = function(){
+		emailModal.style.display="none";
+		navbar.style.display = "block";
+	}
+	window.onclick = function(event) {
+		if(event.target==emailModal){
+			emailModal.style.display = "none";
+			navbar.style.display = "block";
+		}
+	}
 });

@@ -2,9 +2,9 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 }
-.container-fluid{
-	padding: 35px;
-	padding-top: 55px;
+.section-div{
+    padding: 35px;
+    padding-top: 55px;
 }
 .first-div{
 	padding-top: 100px;

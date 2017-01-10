@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", function(){
 	var modalClose = document.getElementsByClassName("close")[0];
 	var navbar = document.getElementById("navbar");
 	var copyEmail= document.getElementById("copyEmail");
-
-
 	copyEmail.onclick = function(){
 		window.prompt("Copy to clipboard: Ctrl+C on Windows, Cmd+C on Mac", "Hendersonj219@gmail.com");
 	}
@@ -24,4 +22,19 @@ document.addEventListener("DOMContentLoaded", function(){
 			navbar.style.display = "block";
 		}
 	}
+	//Thanks to Chris Coyier of css-tricks for the smooth scrolling code! https://css-tricks.com/snippets/jquery/smooth-scrolling/
+	$(function() {
+  		$('a[href*="#"]:not([href="#"])').click(function() {
+    		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      			var target = $(this.hash);
+      			target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      		if (target.length) {
+        	$('html, body').animate({
+          		scrollTop: target.offset().top
+        	}, 1000);
+        return false;
+      }
+    }
+  });
+});
 });

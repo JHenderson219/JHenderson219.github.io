@@ -72,6 +72,8 @@ body{
 .portfolio-img-overlay:hover:after, .portfolio-img-overlay:hover:before {
     opacity: 1;
 }
+
+
 .col-xs-4{
 	padding-top: 10px;
 }
